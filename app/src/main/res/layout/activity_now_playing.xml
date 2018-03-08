@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rickneilson.carui.NowPlayingActivity"
+    android:background="#15151f">
+
+    <LinearLayout
+        android:id="@+id/top_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="Back"
+            android:textSize="48dp"
+            android:background="#B3E5FC"
+            android:layout_marginRight="2dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:text="Home"
+            android:textSize="48dp"
+            android:background="#B3E5FC"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="List"
+            android:textSize="48dp"
+            android:background="#B3E5FC"
+            android:layout_marginLeft="2dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_buttons"
+        android:orientation="horizontal"
+        android:layout_margin="48dp">
+
+        <ImageButton
+            android:layout_width="480dp"
+            android:layout_height="400dp"
+            android:src="@drawable/Hot_Fuss"
+            android:background="0,0,0,0"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mr Brightside"
+                android:textColor="#ffffff"
+                android:textSize="64dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Killers"
+                android:textColor="#ffffff"
+                android:textSize="56dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:textSize="48dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add to favourites"
+                    android:textSize="36dp"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bbutton"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:background="#15151f"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:src="@drawable/sbbutton"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:background="#15151f"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:src="@drawable/playbutton"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:background="#15151f"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:src="@drawable/sfbutton"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:background="#15151f"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:src="@drawable/fbutton"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:background="#15151f"/>
+
+    </LinearLayout>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_buttons"
+        android:layout_margin="12dp"/>
+
+</RelativeLayout>
