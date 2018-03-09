@@ -54,8 +54,8 @@
         <ImageButton
             android:layout_width="480dp"
             android:layout_height="400dp"
-            android:src="@drawable/Hot_Fuss"
-            android:background="0,0,0,0"
+            android:src="@drawable/hot_fuss"
+            android:background="#000000"
             android:scaleType="fitXY"/>
 
         <LinearLayout
