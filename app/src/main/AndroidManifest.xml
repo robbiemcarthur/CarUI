@@ -18,8 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SearchActivity"
-            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".SearchActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="@string/title_activity_now_playing"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
