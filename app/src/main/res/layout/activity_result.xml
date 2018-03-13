@@ -61,12 +61,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_weight="1"
-            android:gravity="center"
             android:text="Albums"
+            android:layout_centerHorizontal="true"
+            android:textSize="36dp"
             android:textColor="#ffffff"
-            android:textSize="36dp" />
+            android:layout_weight="1"
+            android:gravity="center"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -311,25 +311,7 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/floyd"
-            android:layout_weight="1"/>
-
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
             android:src="@drawable/oasis"
-            android:layout_weight="1"/>
-
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/queen"
-            android:layout_weight="1"/>
-
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/foo"
             android:layout_weight="1"/>
 
     </LinearLayout>
