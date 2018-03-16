@@ -38,7 +38,7 @@
                 android:layout_height="1110dp"
                 android:layout_weight="0.9"
                 android:layout_marginTop="125dp"
-                android:layout_marginBottom="dp"
+                android:layout_marginBottom="0dp"
                 android:background="#e0de86"
                 android:text="Artist
 "
